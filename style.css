@@ -9,6 +9,10 @@
     margin: 0;
     box-sizing: border-box;
   }
+   @media{
+       
+   }
+
   
 
   
@@ -39,6 +43,7 @@
     background-color: var(--white);
     margin-top: 4rem;
     box-shadow: 10px 10px black ;
+    max-width:100%  
 
     
 }
