@@ -9,9 +9,31 @@
     margin: 0;
     box-sizing: border-box;
   }
-   @media{
-       
-   }
+@media (max-width: 767px) {
+    .blog-outer-container {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 11px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
 
   
 
