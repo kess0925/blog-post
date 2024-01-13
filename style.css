@@ -35,6 +35,54 @@
     }
 }
 
+/* Styles for the inner container of the blog post */
+.blog-inner-container {
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for images inside the blog inner container */
+.blog-inner-container img {
+    width: auto;
+    max-height: 50vh;
+    border-radius: 20px;
+}
+
+/* Styles for the container representing a user profile */
+.profile-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: /* top */ 10px /* right */ 0 /* bottom */ 10px /* left */ 0;
+}
+
+/* Styles for images inside the profile container */
+.profile-container img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Styles for the attribution section */
+.attribution { 
+    font-size: 16px; 
+    text-align: center;
+    position: relative;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    padding: /* top */ 0px /* right */ 0 /* bottom */ 20px /* left */ 0;
+    color: hsl(0, 0%, 7%)
+}
+
+/* Styles for links within the attribution section */
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
   
 
   
